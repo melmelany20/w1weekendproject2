@@ -215,3 +215,34 @@ div.left-sign-up>h1 {
 
 
 /* ============= HEATHER ============= */
+
+.pay {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.pay-2 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.pay-con {
+    border-radius: 20px;
+}
+
+.solutioncon {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit:scale-down;
+}
+
+.pgraph {
+    line-height: 15px;
+    font-weight: 600;
+}
+
+.clickable {
+    width: 90%;
+    margin-left: 10px;
+}
