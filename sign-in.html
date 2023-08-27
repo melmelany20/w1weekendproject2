@@ -38,20 +38,60 @@
         </div>
         <div class="col-6 right-sign-in">
           <h1 class="sign-in-title">Sign In</h1>
-          <div class="input-icons">
-            <i
-              class="bi bi-person user-icon"
-            ></i>
-            <input type="text" class="form-control input-field user" />
-            <i
-              class="bi bi-envelope email-icon"
-            ></i>
-            <input type="text" class="form-control input-field email" />
-            <i
-              class="bi bi-lock password-icon"
-            ></i>
-            <input type="text" class="form-control input-field pass" />
-          </div>
+          <form class="sign-in-form">
+            <div class="form-group row user-name">
+              <div class="col">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fa fa-user-o"></i>
+                    </div>
+                  </div>
+                  <input
+                    id="user-sign-up"
+                    name="user-sign-up"
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group row email">
+              <div class="col">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fa fa-envelope-o"></i>
+                    </div>
+                  </div>
+                  <input
+                    id="email-sign-up"
+                    name="email-sign-up"
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group row password">
+              <div class="col">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                  </div>
+                  <input
+                    id="password-sign-up"
+                    name="password-sign-up"
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group row"></div>
+          </form>
           <div class="btn btn-lg btn-primary sign-in-btn">Sign in</div>
           <p>Or sign in with social media</p>
           <div class="container">
